@@ -200,7 +200,7 @@ After completing the list of activities listed in the previous sections, you can
     | Project | default |
     | Sync policy | Automatic |
     | Self Heal | true |
-    | Repository URL | <https://github.com/IBM/cloudpak-gitops> |
+    | Repository URL | <https://github.com/timroster/cloudpak-gitops> |
     | Revision | HEAD |
     | Cluster URL | <https://kubernetes.default.svc> |
 
@@ -216,7 +216,7 @@ After completing the list of activities listed in the previous sections, you can
     | Project | default |
     | Sync policy | Automatic |
     | Self Heal | true |
-    | Repository URL | <https://github.com/IBM/cloudpak-gitops> |
+    | Repository URL | <https://github.com/timroster/cloudpak-gitops> |
     | Revision | HEAD |
     | Cluster URL | <https://kubernetes.default.svc> |
 
@@ -251,7 +251,7 @@ After completing the list of activities listed in the previous sections, you can
     | Project | default |
     | Sync policy | Automatic |
     | Self Heal | true |
-    | Repository URL | <https://github.com/IBM/cloudpak-gitops> |
+    | Repository URL | <https://github.com/timroster/cloudpak-gitops> |
     | Revision | HEAD |
     | Cluster URL | <https://kubernetes.default.svc> |
 
@@ -284,7 +284,7 @@ After completing the list of activities listed in the previous sections, you can
 1. Log in to the Argo CD server
 
    ```sh
-   gitops_url=https://github.com/IBM/cloudpak-gitops
+   gitops_url=https://github.com/timroster/cloudpak-gitops
    gitops_branch=main
    argo_pwd=$(oc get secret openshift-gitops-cluster \
                   -n openshift-gitops \

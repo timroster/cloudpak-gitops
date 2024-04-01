@@ -21,7 +21,7 @@ verbose=0
 : "${IBM_CLOUD_USERNAME:=iamapikey}"
 : "${IBM_CLOUD_API_KEY:=really needs to be set by caller}"
 
-: "${GITOPS_REPO:=https://github.com/IBM/cloudpak-gitops.git}"
+: "${GITOPS_REPO:=https://github.com/timroster/cloudpak-gitops.git}"
 : "${GITOPS_BRANCH:=HEAD}"
 : "${GITHUB_PAT:=""}"
 

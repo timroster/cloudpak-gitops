@@ -4,5 +4,5 @@ config:
   git:
     drivers:
       github.ibm.com: github
-gitops_url: https://github.com/IBM/cloudpak-gitops.git
+gitops_url: https://github.com/timroster/cloudpak-gitops.git
 version: 1

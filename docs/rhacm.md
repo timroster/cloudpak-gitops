@@ -103,7 +103,7 @@ The shortcut in case you choose to skip the official instructions:
 1. Log in to the Argo CD server
 
    ```sh
-   gitops_url=https://github.com/IBM/cloudpak-gitops
+   gitops_url=https://github.com/timroster/cloudpak-gitops
    gitops_branch=main
 
    argo_pwd=$(oc get secret openshift-gitops-cluster \

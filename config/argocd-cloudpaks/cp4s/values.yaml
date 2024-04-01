@@ -1,5 +1,5 @@
 ---
-repoURL: https://github.com/IBM/cloudpak-gitops
+repoURL: https://github.com/timroster/cloudpak-gitops
 targetRevision: main
 admin_user: cp4s_admin
 cluster_domain: ""
